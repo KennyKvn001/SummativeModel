@@ -10,18 +10,18 @@ Used data from [Kaggle](https://www.kaggle.com/datasets/tulasiram574/students-dr
 
 ## Model Training Results
 
-| Training Parameters | Instance 1                   | Instance 2                   | Instance 3                   | Instance 4                   |
-| ------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- |
-| Optimizer           | Not used                     | Adam                         | Adam                         | RMSprop                      |
-| Regularizer         | Not used                     | Not used                     | L2, 0.001                    | L2, 0.001                    |
-| Epochs              | 100                          | 300                          | 300                          | 500                          |
-| Early Stopping      | No                           | Yes                          | Yes                          | Yes                          |
-| Number of Layers    | 3                            | 3                            | 3                            | 3                            |
-| Learning Rate       | Not used                     | 0.0001                       | 0.0001                       | 0.0001                       |
-| F1 score            | class 0(0.92), class 1(0.79) | class 0(0.92), class 1(0.80) | class 0(0.92), class 1(0.79) | class 0(0.91), class 1(0.78) |
-| Accuracy            | 0.88073                      | 0.88440                      | 0.88073                      | 0.87155                      |
-| Recall              | class 0(0.95), class 1(0.73) | class 0(0.95), class 1(0.73) | class 0(0.95), class 1(0.73) | class 0(0.95), class 1(0.71) |
-| Precision           | class 0(0.88), class 1(0.87) | class 0(0.89), class 1(0.88) | class 0(0.89), class 1(0.87) | class 0(0.88), class 1(0.86) |
+| Training Instance | Instance 1                   | Instance 2                   | Instance 3                   | Instance 4                   |
+| ----------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- |
+| Optimizer         | Not used                     | Adam                         | Adam                         | RMSprop                      |
+| Regularizer       | Not used                     | Not used                     | L2, 0.001                    | L2, 0.001                    |
+| Epochs            | 100                          | 300                          | 300                          | 500                          |
+| Early Stopping    | No                           | Yes                          | Yes                          | Yes                          |
+| Number of Layers  | 3                            | 3                            | 3                            | 3                            |
+| Learning Rate     | Not used                     | 0.0001                       | 0.0001                       | 0.0001                       |
+| F1 score          | class 0(0.92), class 1(0.79) | class 0(0.92), class 1(0.80) | class 0(0.92), class 1(0.79) | class 0(0.91), class 1(0.78) |
+| Accuracy          | 0.88073                      | 0.88440                      | 0.88073                      | 0.87155                      |
+| Recall            | class 0(0.95), class 1(0.73) | class 0(0.95), class 1(0.73) | class 0(0.95), class 1(0.73) | class 0(0.95), class 1(0.71) |
+| Precision         | class 0(0.88), class 1(0.87) | class 0(0.89), class 1(0.88) | class 0(0.89), class 1(0.87) | class 0(0.88), class 1(0.86) |
 
 The combination that worked better was for the second instance where I used Adam and BatchNormalization and dropout compared to other models.
 
