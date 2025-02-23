@@ -35,6 +35,8 @@ And the Accuraccy, F1 score, Recall and Precision of XGBoost are:
 
 ### Demo Video
 
+[Demo Video](https://drive.google.com/file/d/1vmDJRD_BAWm-Lej7IqVR6on9gyaSSai2/view?usp=sharing)
+
 ## How to Use This Repository
 
 ### Prerequisites
@@ -67,3 +69,5 @@ And the Accuraccy, F1 score, Recall and Precision of XGBoost are:
    ```bash
    python predict.py --input_file data/test_data.csv --output_file predictions.csv
    ```
+
+### NB: How the Notebook is working, the best model is the one that was used for prediction
